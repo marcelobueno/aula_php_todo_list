@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula PHP - ToDo List</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="page-menu">
+        <div class="app-logo">
+            <img src="images/logo.png" alt="Logo da aplicação">
+        </div>
+        <div class="menu-btn">
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+        </div>
+    </header>
+    <menu>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="lista.html">Lista</a></li>
+        </ul>
+    </menu>
+    <main class="list-main">
+        <fieldset>
+            <legend>Minhas tarefas</legend>
+            <form action="#" method="post">
+                <input class="check-color" type="checkbox" name="task" id="task">
+                <label class="completed" for="task">Limpar a casa</label>
+                <a href="#" class="btn-close"><i class="bi bi-x"></i></a>
+            </form>
+            <form action="#" method="post">
+                <input class="check-color" type="checkbox" name="task" id="task">
+                <label class="completed" for="task">Comprar ração do gato</label>
+                <a href="#" class="btn-close"><i class="bi bi-x"></i></a>
+            </form>
+        </fieldset>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
